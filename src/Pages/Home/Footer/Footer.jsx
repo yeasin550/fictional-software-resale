@@ -3,15 +3,15 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 import logo from "../../../assets/logo.png"
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 text-white py-10 px-6 md:px-12">
+        <footer className="bg-gray-900 text-white pt-10  px-6 md:px-12">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
                 {/* Left: Logo and Description */}
                 <div className="flex flex-col items-center md:items-start gap-4">
                     <div className="flex items-center gap-4">
-                        <div className="w-16 h-10 flex items-center">
-                            <img src={logo} alt="Logo" className="h-full w-24 object-contain" />
+                        <div className="w-32 h-24 flex items-center">
+                            <img src={logo} alt="Logo" className="h-full w-32 object-contain" />
                         </div>
-                        <span className="text-3xl font-bold text-white">LicensePro</span>
+                        {/* <span className="text-3xl font-bold text-white"></span> */}
                     </div>
                     <p className="text-gray-400 mt-4 text-center md:text-left max-w-sm">
                         Your one-stop solution for managing software licenses, offloading unused ones, and saving costs. Join us to streamline your software asset management.
